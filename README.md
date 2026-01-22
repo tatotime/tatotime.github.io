@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <body>
-<h1>Pizza Ordering Form</h1>
+<h3>Pizza Ordering Form</h3>
 <section>
-  <h2>Contact Information</h2>
-  <Form>
+  <h4>Contact Information</h4>
+  <form>
     <label for="name">Name:</label>
     <input type="text" name="name"><br>
   
@@ -12,54 +11,88 @@
     
     <label for="email">Email:</label>
     <input type="email" name="email"><br>
-  </Form>
+  </form>
 </section>
 
 <section>
-  <h2>Select Pizza Size</h2>
-  <Form>
+  <h4>Select Pizza Size</h4>
+  <form>
   <select name="pizzasize">
     <label for="pizzasize">Pizza Size:</label>
     <option name="small">Small</option>
     <option name="med">Medium</option>
     <option name="large">Large</option>
   </select>
-  </Form>
+  </form>
 </section>
 
 <section>
-  <h2>Select Sauce</h2>
-  <Form>
+  <h4>Select Sauce</h4>
+  <form>
   <input type="radio" name="Marinara">
+  <label for="marinara">Marinara</label><br>
   <input type="radio" name="Ranch">
+  <label for="ranch">Ranch</label><br>
   <input type="radio" name="Barbeque">
-  </Form>
+  <label for="bbq">Barbeque</label><br>
+  </form>
 </section>
 
 <section>
-  <h2>Select Toppings</h2>
-  <Form>
+  <h3>Select Toppings</h3>
+  <form>
   <label for="pep">Pepperoni</label>
   <input type="checkbox" name="Pepperoni">
   <label for="sausage">Sausage</label>
   <input type="checkbox" name="Sausage"><br>
   <label for="mushroom">Mushroom</label>
-  <input type="checkbox" name=Mushroom">
+  <input type="checkbox" name="Mushroom">
   <label for="pineapple">Pineapple</label>
   <input type="checkbox" name="Pineapple"><br>
   <label for="peppers">Peppers</label>
   <input type="checkbox" name="Peppers">
   <label for="onions">Onions</label>
   <input type="checkbox" name="Onions"><br>
-  </Form>
+  </form>
 </section>
 
 <section>
-  <h2>Additional Instructions</h2>
-  <Form>
-  <textarea rows="4" cols="50">Add instructions</textarea>
+  <h3>Additional Instructions</h3>
+  <form>
+  <textarea rows="2" cols="40">Add instructions</textarea><br>
   <input type="submit" value="Submit">
-  </Form>
+  </form>
+</section>
+
+<section>
+  <table>
+    <tr>
+      <th>Developer</th>
+      <th>Title</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+      <td rowspan="3">Bungie></td>
+      <td>Halo</td>
+      <td>2001</td>
+    </tr>
+    <tr>
+      <td>Halo 2</td>
+      <td>2004</td>
+    </tr>
+    <tr>
+      <td>Halo 3</td>
+      <td>2007</td>
+    </tr>
+    <tr>
+      <td>Mojang</td>
+      <td>Minecraft</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <td colspan="3">Count: 4</td>
+    </tr>
+    
+  </table>
 </section>
 </body>
-</html>
