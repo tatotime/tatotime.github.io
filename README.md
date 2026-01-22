@@ -39,19 +39,25 @@
 <section>
   <h2>Select Toppings</h2>
   <Form>
+  <label for="pep">Pepperoni</label>
   <input type="checkbox" name="Pepperoni">
+  <label for="sausage">Sausage</label>
   <input type="checkbox" name="Sausage"><br>
+  <label for="mushroom">Mushroom</label>
   <input type="checkbox" name=Mushroom">
+  <label for="pineapple">Pineapple</label>
   <input type="checkbox" name="Pineapple"><br>
+  <label for="peppers">Peppers</label>
   <input type="checkbox" name="Peppers">
-  <input type="checkbox name="Onions"><br>
+  <label for="onions">Onions</label>
+  <input type="checkbox" name="Onions"><br>
   </Form>
 </section>
 
 <section>
   <h2>Additional Instructions</h2>
   <Form>
-  <input type="textarea">
+  <textarea rows="4" cols="50">Add instructions</textarea>
   <input type="submit" value="Submit">
   </Form>
 </section>
