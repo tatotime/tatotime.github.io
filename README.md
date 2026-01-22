@@ -18,8 +18,8 @@
   <section>
     <h2>Select Pizza Size</h2>
     <form>
+    <label for="pizzasize">Pizza Size:</label>
     <select name="pizzasize">
-      <label for="pizzasize">Pizza Size:</label>
       <option name="default">--Select Size--</option>
       <option name="small">Small</option>
       <option name="med">Medium</option>
