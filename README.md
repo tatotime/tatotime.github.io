@@ -6,4 +6,7 @@
 
   <label for="phone">Phone:</label>
   <input type="phone" name="phonenum">Phone:</input>
+  
+  <label for="email">Email:</label>
+  <input type="email" name="email"></input>
 </Form>
