@@ -1,8 +1,8 @@
 <body>
 <section>
-  <h2>Pizza Ordering Form</h2>
+  <h1>Pizza Ordering Form</h1>
   <section>
-    <h3>Contact Information</h3>
+    <h2>Contact Information</h2>
     <form>
       <label for="name">Name:</label>
       <input type="text" name="name"><br>
@@ -16,7 +16,7 @@
   </section>
   
   <section>
-    <h3>Select Pizza Size</h3>
+    <h2>Select Pizza Size</h2>
     <form>
     <select name="pizzasize">
       <label for="pizzasize">Pizza Size:</label>
@@ -29,7 +29,7 @@
   </section>
   
   <section>
-    <h3>Select Sauce</h3>
+    <h2>Select Sauce</h2>
     <form>
     <input type="radio" name="Marinara">
     <label for="marinara">Marinara</label><br>
@@ -43,7 +43,7 @@
   </section>
   
   <section>
-    <h3>Select Toppings</h3>
+    <h2>Select Toppings</h2>
     <form>
     <input type="checkbox" name="Pepperoni">
     <label for="pep">Pepperoni</label>
@@ -66,7 +66,7 @@
   </section>
   
   <section>
-    <h3>Additional Instructions</h3>
+    <h2>Additional Instructions</h2>
     <form>
     <textarea rows="2" cols="40">Add instructions</textarea><br>
     <input type="submit" value="Submit"><br><br><br><br><br>
