@@ -1,50 +1,42 @@
 <body>
-<section>
-  <h1>Pizza Ordering Form</h1>
-  <section>
+  <aside>
+    <form>
+    <h1>Pizza Ordering Form</h1>
+    <section>
     <h2>Contact Information</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" name="name"><br>
+    <label for="name">Name:</label>
+    <input type="text" name="name" required><br>
     
-      <label for="phone">Phone:</label>
-      <input type="phone" name="phonenum"><br>
-      
-      <label for="email">Email:</label>
-      <input type="email" name="email"><br>
-    </form>
-  </section>
-  
-  <section>
+    <label for="phone">Phone:</label>
+    <input type="phone" name="phonenum" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" name="email" required><br>
+    </section>
+    
+    <section>
     <h2>Select Pizza Size</h2>
-    <form>
     <label for="pizzasize">Pizza Size:</label>
-    <select name="pizzasize">
-      <option name="default">--Select Size--</option>
-      <option name="small">Small</option>
-      <option name="med">Medium</option>
-      <option name="large">Large</option>
+    <select name="size" required>
+    <option value="" name="size" selected disabled hidden>--Select Size--</option>
+    <option name="size" value="medium">Medium</option>
+    <option name="size" value="large">Large</option>
+    <option name="size" value="xlarge">XLarge</option>
     </select>
-    </form>
-  </section>
-  
-  <section>
+    </section>
+    
+    <section>
     <h2>Select Sauce</h2>
-    <form>
-    <input type="radio" name="Marinara">
+    <input type="radio" id="marinara" name="sauce" required>
     <label for="marinara">Marinara</label><br>
-    <input type="radio" name="Ranch">
+    <input type="radio" id="ranch" name="sauce">
     <label for="ranch">Ranch</label><br>
-    <input type="radio" name="Barbeque">
+    <input type="radio" id="bbq" name="sauce">
     <label for="bbq">Barbeque</label><br>
-    <input type="radio" name="none">
-    <label for="none">No sauce</label><br>
-    </form>
-  </section>
-  
-  <section>
+    </section>
+    
+    <section>
     <h2>Select Toppings</h2>
-    <form>
     <input type="checkbox" name="Pepperoni">
     <label for="pep">Pepperoni</label>
     
@@ -53,7 +45,7 @@
     
     <input type="checkbox" name="Mushroom">
     <label for="mushroom">Mushroom</label>
-  
+    
     <input type="checkbox" name="Pineapple">
     <label for="pineapple">Pineapple</label><br>
     
@@ -62,20 +54,18 @@
     
     <input type="checkbox" name="Onions">
     <label for="onions">Onions</label><br>
-    </form>
-  </section>
-  
-  <section>
+    </section>
+    
+    <section>
     <h2>Additional Instructions</h2>
-    <form>
     <textarea rows="2" cols="20">Add instructions</textarea><br>
     <input type="submit" value="Submit"><br><br><br><br><br>
+    </section>
     </form>
-  </section>
   
-  <section>
-    <table>
-    <thead>List of my Favorite Games</thead>
+  <article>
+    <table border="1px solid black">
+      <thead>List of my Favorite Games</thead>
       <tr>
         <th>Developer</th>
         <th>Title</th>
@@ -103,7 +93,6 @@
         <td colspan="3">Count: 4</td>
       </tr>
     </table>
+    </article>
   </section>
-</section>
-
 </body>
