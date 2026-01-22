@@ -68,7 +68,7 @@
   <section>
     <h2>Additional Instructions</h2>
     <form>
-    <textarea rows="2" cols="30">Add instructions</textarea><br>
+    <textarea rows="2" cols="20">Add instructions</textarea><br>
     <input type="submit" value="Submit"><br><br><br><br><br>
     </form>
   </section>
