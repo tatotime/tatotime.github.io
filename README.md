@@ -1,3 +1,9 @@
-# tatotime.github.io
-github.io website for class.
-<h2>Cats</h2>
+<h1>Pizza Ordering Form</h1>
+<h2>Contact Information</h2>
+<Form>
+  <label for="name">Name:</label>
+  <input type="text" name="name"></input>
+
+  <label for="phone">Phone:</label>
+  <input type="phone" name="phonenum">Phone:</input>
+</Form>
