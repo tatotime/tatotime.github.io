@@ -1,4 +1,5 @@
 <body>
+<section border="1px solid black">
 <h3>Pizza Ordering Form</h3>
 <section>
   <h4>Contact Information</h4>
@@ -19,6 +20,7 @@
   <form>
   <select name="pizzasize">
     <label for="pizzasize">Pizza Size:</label>
+    <option name="default">--Select Size--</option>
     <option name="small">Small</option>
     <option name="med">Medium</option>
     <option name="large">Large</option>
@@ -41,18 +43,23 @@
 <section>
   <h3>Select Toppings</h3>
   <form>
-  <label for="pep">Pepperoni</label>
   <input type="checkbox" name="Pepperoni">
-  <label for="sausage">Sausage</label>
-  <input type="checkbox" name="Sausage"><br>
-  <label for="mushroom">Mushroom</label>
+  <label for="pep">Pepperoni</label>
+  
+  <input type="checkbox" name="Sausage">
+  <label for="sausage">Sausage</label><br>
+  
   <input type="checkbox" name="Mushroom">
-  <label for="pineapple">Pineapple</label>
-  <input type="checkbox" name="Pineapple"><br>
-  <label for="peppers">Peppers</label>
+  <label for="mushroom">Mushroom</label>
+
+  <input type="checkbox" name="Pineapple">
+  <label for="pineapple">Pineapple</label><br>
+  
   <input type="checkbox" name="Peppers">
-  <label for="onions">Onions</label>
-  <input type="checkbox" name="Onions"><br>
+  <label for="peppers">Peppers</label>
+  
+  <input type="checkbox" name="Onions">
+  <label for="onions">Onions</label><br>
   </form>
 </section>
 
@@ -60,19 +67,20 @@
   <h3>Additional Instructions</h3>
   <form>
   <textarea rows="2" cols="40">Add instructions</textarea><br>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit"><br><br><br><br><br>
   </form>
 </section>
 
 <section>
   <table>
+  <thead>List of my Favorite Games</thead>
     <tr>
       <th>Developer</th>
       <th>Title</th>
       <th>Year</th>
     </tr>
     <tr>
-      <td rowspan="3">Bungie></td>
+      <td rowspan="3">Bungie</td>
       <td>Halo</td>
       <td>2001</td>
     </tr>
@@ -92,7 +100,8 @@
     <tr>
       <td colspan="3">Count: 4</td>
     </tr>
-    
   </table>
 </section>
+</section>
+
 </body>
