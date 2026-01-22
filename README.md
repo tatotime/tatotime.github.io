@@ -1,8 +1,8 @@
 <body>
 <section>
-  <h3>Pizza Ordering Form</h3>
+  <h2>Pizza Ordering Form</h2>
   <section>
-    <h4>Contact Information</h4>
+    <h3>Contact Information</h3>
     <form>
       <label for="name">Name:</label>
       <input type="text" name="name"><br>
@@ -16,7 +16,7 @@
   </section>
   
   <section>
-    <h4>Select Pizza Size</h4>
+    <h3>Select Pizza Size</h3>
     <form>
     <select name="pizzasize">
       <label for="pizzasize">Pizza Size:</label>
@@ -29,7 +29,7 @@
   </section>
   
   <section>
-    <h4>Select Sauce</h4>
+    <h3>Select Sauce</h3>
     <form>
     <input type="radio" name="Marinara">
     <label for="marinara">Marinara</label><br>
