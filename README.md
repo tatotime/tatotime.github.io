@@ -74,7 +74,7 @@
 </section>
 
 <section>
-  <table>
+  <table border="1px solid black">
   <thead>List of my Favorite Games</thead>
     <tr>
       <th>Developer</th>
