@@ -67,7 +67,7 @@
   </section>
   
   <article>
-    <table border="1px solid black">
+    <table border=1>
       <thead>List of my Favorite Games</thead>
       <tr>
         <th>Developer</th>
