@@ -1,0 +1,65 @@
+#jumpMenu {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+}
+
+#jumpMenu a {
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+}
+
+#jumpMenu a:hover {
+    color: black;
+    background-color: white;
+}
+
+#jumpMenu a:active {
+    color: white;
+    background-color: blueviolet;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  margin: auto;
+  width: 50%;
+  background-color: white;
+}
+
+#thanks {
+  margin: 10px;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 300px));
+  justify-content: center;
+  grid-auto-flow: row;
+  margin: auto;
+  width: 50%;
+}
+
+#container article {
+  width: 300px;
+  margin: 20px;
+  padding: 50px;
+}
+
+body {
+    background: white;
+}
+
+h1 {
+    text-align: center;
+}
