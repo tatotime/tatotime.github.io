@@ -1,0 +1,82 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17.4px;
+}
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+#paragraph2 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+    text-align: left;
+    font-size: 17px;
+    margin: 20px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 55px;
+    width: 900px;
+    background-color: white;
+}
+
+.blue {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    font-size: 17.5px;
+}
+
+* {
+    background-color: lightblue;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+ol {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    counter-reset: num;
+}
+
+ol li {
+    font-size: 20px;
+    counter-increment: num;
+}
+
+ol li::before{
+    content: "0" counter(num) ". ";
+}
+
+p a {
+    color: orangered;
+}
+
+table, td, th {
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+    border-width: 1px;
+}
+
+table th{
+    background-color: lightgray;
+}
+
+table td {
+    background-color: white;
+    padding: 10px;
+}
