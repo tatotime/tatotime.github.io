@@ -1,0 +1,120 @@
+header p {
+    font-size: 28px;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 300px));
+  justify-content: center;
+  grid-auto-flow: row;
+  margin: auto;
+  width: 90%;
+}
+
+#container article p:first-letter {
+    font-family: 'Times New Roman';
+    font-size: 36px;
+}
+
+#container article {
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgrey;
+    font-size: 16px;
+    transition: font-size 2s;
+}
+
+#container article a::after {
+    content: url("arrow.png");
+    display: inline-block;
+    width: 29px;
+    height: 31px;
+}
+
+#container article:hover {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 18px;
+}
+
+#menuItems {
+    left:0px;
+    top:0px;
+    background-color:black;
+    width:10%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+}
+
+#menuItems button {
+    font-size: 20px;
+}
+
+#menuItems button:hover {
+    background-color: goldenrod;
+}
+
+#menuItems #recentArticles:hover + #jumpMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+#jumpMenu {
+    display: none;
+    flex-direction: column;
+    background-color: lightblue;
+    list-style: none;
+}
+
+#jumpMenu li a {
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+}
+
+#jumpMenu a:hover {
+    background-color: rgb(133, 189, 207);
+    color: black;
+}
+
+header {
+  top: 0;
+  left:10%;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#thanks, #thanks>a {
+    margin: 10px;
+    right: 0px;
+    bottom: 0px;
+    background-color: blue;
+    color: white;
+    position: fixed;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+    width:90%;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    width: 50%;
+    margin-top: 100px;
+}
