@@ -1,0 +1,40 @@
+#pi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: lightgray;
+}
+
+#edu {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    text-align: center;
+    width: 100%;
+}
+
+#work {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    text-align: center;
+    width:100%;
+}
+
+#projects {
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    border: 1px solid black;
+}
+
+#person_info {
+    display: flex;
+    flex-direction: column;
+}
