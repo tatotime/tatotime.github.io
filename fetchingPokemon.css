@@ -1,0 +1,44 @@
+#main-container {
+    align-items: center;
+    border: 10px solid black;
+    margin: 200px 100px;
+    padding: 20px;
+}
+
+#main-container h1 {
+    align-self: center;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+#searchBar {
+    align-self: center;
+}
+
+#searchResults {
+    display: flex;
+    flex-direction: column;
+}
+
+#data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#moveset-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+#team-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#pokemon {
+    display: flex;
+    flex-direction: column;
+}

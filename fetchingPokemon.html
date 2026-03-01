@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="fetchingPokemon.css">
+        <script src="fetchingPokemon.js"></script>
+    </head>
+    
+    <body>
+        <section id="main-container">
+            <section id="data-container">
+                <h1>Name or ID</h1>
+                <section id="searchBar">
+                    <input type="text" id="pokemonNameSearch">
+                    <button type="button" onclick="getPokemonInfo()">Find</button>
+                </section>
+                <section id="searchResults">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png" id="pokemonImage" alt="pokemon image" style="height: 112px; width:112px">
+                    <audio controls id="soundbyte" src="pokemonAudio.mp3"></audio>  
+                    <form id="moveSelector">
+                        <section id="moveset-container">
+                            <input list="moveset" name="move1" id="move1">
+                            <input list="moveset" name="move2" id="move2">
+                            <input list="moveset" name="move3" id="move3">
+                            <input list="moveset" name="move4" id="move4">
+                            <datalist id="moveset"></datalist>
+                        </section>
+                        <button type="button" onclick="AddPokeToTeam()">Add to Team</button>
+                        <!-- Debug Button: <button type="button" onclick="pToConsoleLocalStorage()">PrintLocalStorage</button> -->
+                    </form>
+                </section>
+            </section>
+            <section id="team-container">
+                <section id="pokemon"></section>
+            </section>
+        </section>
+    </body>
+</html>
